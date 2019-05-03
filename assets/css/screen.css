@@ -710,7 +710,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 
 .post-full-image {
-    margin: 0 -10vw -165px;
+    margin: 0 -10vw 1.5em;
     background: var(--lightgrey) center center;
     border-radius: 5px;
     overflow: hidden;
@@ -724,7 +724,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 
 @media (max-width: 1170px) {
     .post-full-image {
-        margin: 0 -4vw -100px;
+        margin: 0 -4vw 1.5em;
         border-radius: 0;
     }
     .post-full-image img {
@@ -760,7 +760,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     }
 }
 
-.post-full-content:before {
+/* .post-full-content:before {
     content: "";
     position: absolute;
     top: 15px;
@@ -786,7 +786,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     background: rgba(39,44,49,0.15);
     filter: blur(5px);
     transform: rotate(5deg);
-}
+} */
 
 .no-image .post-full-content {
     padding-top: 0;
