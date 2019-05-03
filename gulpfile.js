@@ -99,8 +99,8 @@ try {
     config = null;
 }
 
-const REPO = 'TryGhost/Casper';
-const USER_AGENT = 'Casper';
+const REPO = 'kothique/Plantification';
+const USER_AGENT = 'Plantification';
 const CHANGELOG_PATH = path.join(process.cwd(), '.', 'changelog.md');
 
 const changelog = ({previousVersion}) => {
